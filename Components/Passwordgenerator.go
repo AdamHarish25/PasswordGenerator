@@ -19,6 +19,6 @@ func encryptPassword2(password string) string {
 }
 
 func main() {
-	fmt.Println(encryptPassword("iniPassword..."))
+	fmt.Println(encryptPassword("iniPassword"))
 	fmt.Println(encryptPassword2("abcd1234"))
 }
